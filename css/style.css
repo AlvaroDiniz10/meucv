@@ -1,25 +1,32 @@
-/* stile.css*/
 body {
-    font: Arial, sans-serif; /*aqui eu defino a fonte de letra do projeto*/
+    font-family: Arial, sans-serif; /* Corrigido */
+    background-color: rgb(197, 195, 195); /* Corrigido */
 }
+
 .logo {
     text-align: center;
     margin-top: 50px;
 }
-.logo img{
-    max width: 200px;
 
+.logo img {
+    max-width: 200px; /* Corrigido */
 }
+
 .container {
     margin-top: 30px;
-
 }
-/*Estilização do formulario*/
-.from-container{
+
+/* Estilização do formulário */
+.form-container { /* Corrigido */
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background: #f8f9fa ;
+    background: #999999ea;
     border-radius: 8px;
-    box shadow: 0 0 10px rgba(0,0,0, 0.1)
+}
+
+.imagem-redonda {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Alternativa mais simples */
 }
