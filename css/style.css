@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif; /* Corrigido */
-    background-color: rgb(250, 250, 250); /* Corrigido */
+    background-color:white /* Corrigido */
 }
 
 .logo {
@@ -21,7 +21,7 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background: #9c9c9cea;
+    background: white;
     border-radius: 8px;
 }
 
