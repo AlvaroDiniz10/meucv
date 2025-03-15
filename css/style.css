@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif; /* Corrigido */
-    background-color: rgb(197, 195, 195); /* Corrigido */
+    background-color:white /* Corrigido */
 }
 
 .logo {
@@ -21,7 +21,7 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background: #999999ea;
+    background: white;
     border-radius: 8px;
 }
 
@@ -30,3 +30,36 @@ body {
     height: 150px;
     border-radius: 50%; /* Alternativa mais simples */
 }
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Faz o body ocupar a tela inteira */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Conteúdo principal ocupa o espaço disponível */
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilização do rodapé */
+footer {
+    background-color: #090909;
+    color: white;
+    text-align: center;
+    padding: 0% 0;
+    width: 100%;
+}
+
